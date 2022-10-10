@@ -1,0 +1,156 @@
+.recenzieContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 30%;
+  margin: 0 auto;
+  justify-self: baseline;
+  border-radius: 10px;
+  gap: 10px;
+}
+.recenzieContainer label {
+  background-color: #d3ded6;
+}
+.recenzieContainer input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("https://i.imgur.com/cVEJkJJ.png");
+}
+.recenzieContainer input:focus {
+  background-color: rgba(82, 132, 82, 0.558);
+}
+.recenzieContainer textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("https://i.imgur.com/cVEJkJJ.png");
+}
+.recenzieContainer textarea:focus {
+  background-color: rgba(82, 132, 82, 0.558);
+}
+h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.buttonTrimiteRecenzie {
+  max-width: 30%;
+  align-self: center;
+  padding: 10px;
+  background-image: url("https://i.imgur.com/GmFPrnI.jpg");
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactContainer iframe {
+  align-self: center;
+  border-radius: 20px;
+}
+.contactContainer p {
+  background-color: #d3ded6;
+}
+h4 {
+  text-align: center;
+}
+.recenzieSuccess {
+  padding: 10px;
+  background-color: rgba(41, 203, 41, 0.411);
+  border-radius: 10px;
+}
+.recenzieLogIn {
+  display: flex;
+  flex-direction: column;
+}
+.recenzieFail {
+  background-color: rgba(255, 0, 0, 0.452);
+  border-radius: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  justify-items: center;
+  grid-template-columns: [row1-start] 60% [row1-end] 100px [third-line];
+}
+/*FOOTER CCS*/
+.footerContainer {
+  text-align: flex-start;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 500px [col-start]);
+  background-image: url("https://i.imgur.com/f2NkZXP.jpg");
+  box-sizing: border-box;
+}
+.footerContainer a {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(217, 255, 217);
+}
+.footerContainer div {
+  background-color: transparent;
+}
+.contactContainer {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 760px) {
+  h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .recenzieContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    gap: 10px;
+  }
+
+  .contactContainer iframe {
+    align-self: center;
+    border-radius: 20px;
+    max-width: 100%;
+  }
+  .contactContainer {
+    margin-bottom: 100px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerContainer {
+    text-align: flex-start;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: flex-start;
+    gap: 10px;
+    grid-template-columns: repeat(2, 150px [col-start]);
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  .footerContainer a {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .footerContainer div {
+    background-color: transparent;
+  }
+}

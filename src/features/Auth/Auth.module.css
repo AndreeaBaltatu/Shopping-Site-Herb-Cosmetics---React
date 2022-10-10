@@ -1,0 +1,261 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  background: #68b063;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 3px 3px 25px rgba(120, 241, 180, 0.35);
+  border-radius: 10px;
+  border: 6px solid #12550c;
+}
+h1 {
+  text-align: center;
+  background-color: rgba(70, 126, 44, 0);
+}
+.welcomeMsg {
+  background-color: #d3ded6;
+  font-size: 200%;
+  padding: 20px;
+  text-shadow: 1px 1px 2px #bffac4, 0 0 25px rgb(50, 144, 73), 0 0 5px #26472c;
+}
+.welcomeMSG {
+  background: rgb(147, 198, 141);
+}
+
+.container img {
+  border-radius: 50%;
+}
+.container input {
+  width: 100%;
+  padding: 12px 20px;
+  background: #68b063;
+  display: inline-block;
+  border: 1px solid rgb(31, 69, 36);
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.registerContainer {
+  background: #68b063;
+}
+form {
+  background-color: #d3ded6;
+}
+
+.container button {
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+  background-image: linear-gradient(
+    to bottom right,
+    #bffac4,
+    rgb(50, 144, 73),
+    #26472c
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 10%;
+  text-decoration: none;
+}
+.removeBG {
+  background: #68b063;
+}
+p,
+label {
+  background: #68b063;
+}
+.loginValidation {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #68b063;
+}
+.loginValidation a {
+  text-decoration: none;
+  background-color: #68b063;
+  color: black;
+  align-self: center;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  background: rgb(147, 198, 141);
+  padding: 30px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 25px rgba(120, 241, 180, 0.35);
+  border-radius: 10px;
+  border: 6px solid #12550c;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  gap: 10px;
+}
+.profileContainer img {
+  border-radius: 50%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.profileContainer div {
+  background: rgb(147, 198, 141);
+}
+.profileContainer button {
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+  background-image: linear-gradient(
+    to bottom right,
+    #bffac4,
+    rgb(50, 144, 73),
+    #26472c
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.profileContainer a {
+  background: rgb(147, 198, 141);
+}
+
+.editProfileContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 25px rgba(120, 241, 180, 0.35);
+  border-radius: 10px;
+  border: 6px solid #12550c;
+  padding: 30px;
+  background: rgb(147, 198, 141);
+  gap: 10px;
+}
+.editProfileContainer p {
+  background: rgb(147, 198, 141);
+}
+.editProfileContainer label {
+  background: rgb(147, 198, 141);
+}
+.editProfileContainer button {
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+  background-image: linear-gradient(
+    to bottom right,
+    #bffac4,
+    rgb(50, 144, 73),
+    #26472c
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.editProfileContainer input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid rgb(22, 77, 11);
+  border-radius: 4px;
+  background: #68b063;
+}
+.editProfileTitle {
+  padding: 20px;
+}
+/*FOOTER CCS*/
+.footerContainer {
+  text-align: flex-start;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 500px [col-start]);
+  background-color: rgb(56, 99, 49);
+  box-sizing: border-box;
+}
+.footerContainer a {
+  text-decoration: none;
+  background-color: rgb(56, 99, 49);
+  color: rgb(217, 255, 217);
+}
+.footerContainer div {
+  background-color: rgb(56, 99, 49);
+}
+.footerContainer input {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid rgb(224, 204, 180);
+  border-radius: 10px;
+
+  background-color: rgb(56, 99, 49);
+  color: rgb(217, 255, 217);
+}
+
+/*ERRORS*/
+.errors {
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+form .success {
+  background-color: rgba(51, 212, 51, 0.459);
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 70%;
+  align-self: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .footerContainer {
+    text-align: flex-start;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: flex-start;
+    gap: 10px;
+    grid-template-columns: repeat(2, 150px [col-start]);
+    background-color: rgb(56, 99, 49);
+    box-sizing: border-box;
+  }
+  .footerContainer a {
+    text-decoration: none;
+    background-color: rgb(56, 99, 49);
+  }
+  .footerContainer div {
+    background-color: rgb(56, 99, 49);
+  }
+  .footerContainer input {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 5px;
+    border: 1px solid rgb(224, 204, 180);
+    margin-bottom: 12px;
+    background-color: rgb(56, 99, 49);
+  }
+  .profileContainer img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  .errors {
+    font-size: 20px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.255);
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}

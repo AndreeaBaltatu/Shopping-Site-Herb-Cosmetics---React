@@ -1,0 +1,574 @@
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  justify-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.productList h1 {
+  grid-column: 1/-1;
+  padding: 2rem;
+
+  font-size: 3rem;
+  background-color: rgba(70, 126, 44, 0);
+  color: black;
+  text-shadow: 1px 1px 2px #bffac4, 0 0 25px rgb(50, 144, 73), 0 0 5px #26472c;
+}
+
+.filtruContainer {
+  grid-column: 1/-1;
+  display: flex;
+  gap: 10px;
+}
+.filtruContainer label {
+  background-color: #d3ded6;
+}
+.filtruContainer select {
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: #40ae36;
+  max-width: 100%;
+}
+
+.addBTN {
+  align-self: flex-start;
+  grid-column: 1/-1;
+  justify-self: center;
+  padding: 10px;
+  background-image: url("https://i.imgur.com/GmFPrnI.jpg");
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(70, 126, 44, 0.061);
+}
+.icons {
+  background-color: rgb(50, 144, 73);
+}
+.errors {
+  color: red;
+}
+.success {
+  color: #2b5827;
+  background-color: #40ae36;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.productImages {
+  width: 400px;
+  height: 300px;
+  text-decoration: none;
+  position: relative;
+}
+
+.ProductGramaj {
+  background-color: transparent;
+}
+.ProductPrice {
+  background-color: transparent;
+}
+.ProductCart {
+  margin: 10px;
+  padding: 10px;
+  background-image: url("https://i.imgur.com/GmFPrnI.jpg");
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+.borderNone {
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+h2 {
+  background-color: transparent;
+  text-shadow: 1px 1px 2px #bffac4, 0 0 25px rgb(50, 144, 73), 0 0 5px #26472c;
+}
+
+.product_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.ProductCart {
+  justify-items: flex-end;
+}
+
+.product_box {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  background-image: url("https://i.imgur.com/ku1XeW1.png");
+  background-repeat: space;
+  background-color: antiquewhite;
+  border: 2px solid rgba(0, 0, 0, 0.389);
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgb(212, 248, 209);
+  text-decoration: none;
+}
+.product_box:hover {
+  box-shadow: 0 22px 16px 0 rgba(46, 127, 38, 0.511),
+    0 17px 50px 0 rgba(26, 177, 23, 0.625);
+  text-decoration: none;
+}
+/* CSS FOR SHOPPING CART */
+.shoppingCart {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  flex-direction: row;
+  background-color: #68b063;
+}
+
+.shoppingCart img {
+  width: 10%;
+  height: 10%;
+  border-radius: 20px;
+}
+.shoppingCart button {
+  margin-left: auto;
+  padding: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    #bffac4,
+    rgb(50, 144, 73),
+    #26472c
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.shoppingCart p {
+  background-color: #68b063;
+}
+.cartButtons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  margin-top: 20px;
+  flex-direction: row;
+}
+.cartButtons button {
+  background-image: linear-gradient(
+    to bottom right,
+    #bffac4,
+    rgb(50, 144, 73),
+    #26472c
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+/*CSS FOR PRODUCT DETAILS*/
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  max-width: 50%;
+  border: 6px inset #40ae36;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.detailsContainer p {
+  background-color: #d3ded6;
+  color: #113c0d;
+}
+.addProductContainer div {
+  background: #68b063;
+}
+.detailsImage {
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.389);
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgb(109, 139, 105);
+  max-width: 500px;
+}
+
+/*CSS FOR EDIT PRODUCT */
+.editProduct {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 25px rgba(120, 241, 180, 0.35);
+  border-radius: 10px;
+  border: 6px solid #12550c;
+  gap: 10px;
+  background: #68b063;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edith1 {
+  padding: 20px;
+}
+.editProduct input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid rgb(22, 77, 11);
+  border-radius: 4px;
+  background: #68b063;
+  text-align: center;
+}
+
+/*CSS FOR ADD PRODUCT */
+.btnAdauga {
+  margin: 0 auto;
+  padding: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    #bffac4,
+    rgb(50, 144, 73),
+    #26472c
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.addProductContainer {
+  max-width: 450px;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 3px 3px 25px rgba(120, 241, 180, 0.35);
+  border-radius: 10px;
+  border: 6px solid #12550c;
+  background-image: url("https://i.imgur.com/cVEJkJJ.png");
+}
+.addProductContainer div {
+  background-color: transparent;
+}
+.addProductContainer input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid rgb(22, 77, 11);
+  border-radius: 4px;
+  background-color: transparent;
+}
+.addProductContainer input:focus {
+  background-color: rgba(67, 123, 87, 0.671);
+  font-size: larger;
+  color: white;
+}
+.addProductContainer label {
+  background-color: transparent;
+}
+.addProductContainer textarea {
+  min-width: 100%;
+  max-height: 100%;
+  border: 1px solid rgb(22, 77, 11);
+  border-radius: 4px;
+  background-color: transparent;
+}
+.addProductContainer textarea:focus {
+  background-color: rgba(67, 123, 87, 0.671);
+  color: white;
+}
+.label {
+  width: 100%;
+  padding: 10px 0px;
+  background-image: url("https://i.imgur.com/cVEJkJJ.png");
+}
+.success {
+  border-radius: 20px;
+  background-color: #40ae369c;
+}
+/* CSS FOR MODAL */
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.652);
+  top: 0px;
+}
+.modalBox {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  top: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+}
+.modalBox p {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+}
+.Yes {
+  background-image: url("https://i.imgur.com/f2NkZXP.jpg");
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+  align-self: center;
+  color: white;
+}
+.modalNone {
+  display: none;
+}
+.No {
+  background-image: url("https://i.imgur.com/gXqw1la.jpg");
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+  align-self: center;
+  color: white;
+}
+
+/*CSS FOR FOOTER */
+.footerContainer {
+  text-align: flex-start;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 500px [col-start]);
+  background-image: url("https://i.imgur.com/f2NkZXP.jpg");
+  box-sizing: border-box;
+}
+.footerContainer a {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(217, 255, 217);
+}
+.footerContainer div {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 720px) {
+  .filtruContainer {
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    justify-items: start;
+    gap: 50px;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .product_box {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: 2px solid rgba(0, 0, 0, 0.389);
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(212, 248, 209);
+    text-decoration: none;
+    max-width: 65%;
+  }
+  .productImages {
+    justify-self: center;
+    align-self: center;
+    max-height: auto;
+    max-width: 100%;
+  }
+  .productList h1 {
+    grid-column: 1/-1;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: rgba(70, 126, 44, 0);
+    color: black;
+    text-shadow: 1px 1px 2px #bffac4, 0 0 25px rgb(50, 144, 73), 0 0 5px #26472c;
+    align-items: center;
+  }
+  .detailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    max-width: 100%;
+    border: none;
+  }
+  .detailsImage {
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.389);
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(109, 139, 105);
+    max-width: 40vh;
+  }
+  .addProductContainer textarea {
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid rgba(33, 83, 33, 0.678);
+  }
+  .addBTN {
+    align-self: flex-start;
+    grid-column: 1/-1;
+    justify-self: flex-start;
+    padding: 10px;
+    background-image: url("https://i.imgur.com/GmFPrnI.jpg");
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  /*FOOTER CCS*/
+  .footerContainer {
+    text-align: flex-start;
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    grid-template-columns: repeat(2, 500px [col-start]);
+    background-image: url("https://i.imgur.com/f2NkZXP.jpg");
+    box-sizing: border-box;
+  }
+  .footerContainer a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(217, 255, 217);
+  }
+  .footerContainer div {
+    background-color: transparent;
+  }
+
+  .editProduct {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 3px 3px 25px rgba(120, 241, 180, 0.35);
+    border-radius: 10px;
+    border: 6px solid #12550c;
+    margin-top: 20px;
+  }
+  .shoppingCart {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .shoppingCart img {
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+  }
+  .shoppingCart button {
+    margin-left: auto;
+    padding: 20px;
+
+    background-image: linear-gradient(
+      to bottom right,
+      #bffac4,
+      rgb(50, 144, 73),
+      #26472c
+    );
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .shoppingCart p {
+    background-color: #68b063;
+  }
+  .cartButtons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    flex-direction: row;
+  }
+  .cartButtons button {
+    background-image: linear-gradient(
+      to bottom right,
+      #bffac4,
+      rgb(50, 144, 73),
+      #26472c
+    );
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .footerContainer {
+    text-align: flex-start;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: flex-start;
+    gap: 10px;
+    grid-template-columns: repeat(2, 150px [col-start]);
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  .footerContainer a {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .footerContainer div {
+    background-color: transparent;
+  }
+}

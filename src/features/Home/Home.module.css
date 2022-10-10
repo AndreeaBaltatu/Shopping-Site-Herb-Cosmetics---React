@@ -1,0 +1,114 @@
+.homeLogo {
+  max-width: 10%;
+  max-height: 50%;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(70, 126, 44, 0);
+}
+
+.descriereContainer h1 {
+  align-self: center;
+  background-color: rgba(70, 126, 44, 0);
+}
+.descriereContainer h2 {
+  align-self: center;
+  background-color: rgba(70, 126, 44, 0);
+}
+.homePicture {
+  max-width: 15%;
+  max-height: 20%;
+  align-self: center;
+  border: 5px inset rgb(52, 103, 56);
+  border-radius: 50%;
+}
+p {
+  text-align: center;
+}
+.homeDescriere {
+  align-self: center;
+  width: 700px;
+  border: 5px inset;
+  margin-bottom: 100px;
+}
+.descriereContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+/*FOOTER CCS*/
+.footerContainer {
+  text-align: flex-start;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(2, 500px [col-start]);
+  background-image: url("https://i.imgur.com/f2NkZXP.jpg");
+  box-sizing: border-box;
+}
+.footerContainer a {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(217, 255, 217);
+}
+.footerContainer div {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeDescriere {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .descriereContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+    background-color: rgba(70, 126, 44, 0);
+    margin-bottom: 50px;
+  }
+  .removeBG {
+    background-color: rgba(70, 126, 44, 0);
+  }
+  .homePicture {
+    max-width: 45%;
+    max-height: 20%;
+    align-self: center;
+    background-color: rgba(70, 126, 44, 0);
+    border-radius: 50%;
+  }
+  .homeLogo {
+    max-width: 30%;
+    max-height: 50%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(70, 126, 44, 0);
+  }
+  .descriereContainer h2 {
+    text-align: center;
+    background-color: rgba(70, 126, 44, 0);
+  }
+  .footerContainer {
+    text-align: flex-start;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: flex-start;
+    gap: 10px;
+    grid-template-columns: repeat(2, 150px [col-start]);
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  .footerContainer a {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .footerContainer div {
+    background-color: transparent;
+  }
+}

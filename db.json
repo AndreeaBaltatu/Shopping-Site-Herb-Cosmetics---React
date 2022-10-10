@@ -1,0 +1,258 @@
+{
+  "recenzii": [
+    {
+      "firstName": "Elena",
+      "lastName": "Baltatu",
+      "recenzie": "Produsele sunt 100% naturale,  Recomand cu incredere!",
+      "id": 1
+    },
+    {
+      "firstName": "Andreea Elena",
+      "lastName": "Baltatu",
+      "recenzie": "Produse de calitate! 100% naturale! Recomand cu drag !",
+      "id": 2
+    },
+    {
+      "firstName": "Andreea",
+      "lastName": "Baltatu",
+      "recenzie": "Produse de foarta buna calitate!",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "andreeabaltatu22@gmail.com",
+      "password": "$2a$10$hk6XFLOc7kwcX7q0hch35ONocw9UXeFnQ9mmoroY7/vuVndGDQE1i",
+      "firstName": "Andreea",
+      "lastName": "Baltatu",
+      "id": 2,
+      "poza": "https://i.imgur.com/Pnt9BBG.jpg"
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$VZ4JsXkvkwFvo9qkvsWyLOmJqOXSPe3vbz4zsvxv1.HBJlD9M.Oe2",
+      "firstName": "Andreea",
+      "lastName": "",
+      "id": 3,
+      "poza": "https://i.imgur.com/1yqliaT.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Cremă hidratantă de mâini",
+      "ingrediente": "Cu ulei de măsline, ulei de sâmburi de struguri, emulsifiant din măsline, glicerină, vitamina E, lanolină, uleiuri esențiale/ extracte aromatice naturale.",
+      "beneficii": "intens hidratantă, emolientă",
+      "poza": "https://i.imgur.com/12ayfNi.png",
+      "pret": "20 lei",
+      "gramaj": "30 ml",
+      "categorie": "creme"
+    },
+    {
+      "id": 2,
+      "title": "Crema ten gras/acneic",
+      "ingrediente": "apă de rozmarin, apă de trandafiri, ulei de jojoba, ulei de măceșe, niacinamidă (vit. B), alge marine, extract de schisandra, proteină de mătase, acid hialuronic, ulei esențial tea tree și rozmarin (DoTerra).",
+      "beneficii": "atenuează acneea și petele,reduce excesul de sebum,hidratează, catifelează pielea,efect matifiant, antibacterian, purifiant.",
+      "poza": "https://i.imgur.com/i3Qk1J1.png",
+      "pret": "28",
+      "gramaj": "10 ml",
+      "categorie": "creme"
+    },
+    {
+      "id": 3,
+      "title": "Crema ten normal/ uscat",
+      "ingrediente": "apă de trandafiri, ulei de jojoba, ulei de avocado, niacinamidă (vit. B), coenzima Q10, acid hyaluronic, ulei esențial de geranium (DoTerra).",
+      "beneficii": "antirid, netezește pielea, îmbunătățește elasticitatea pielii și o hidratează, întărește bariera de protecția a pielii.",
+      "poza": "https://i.imgur.com/i3Qk1J1.png",
+      "pret": 25,
+      "gramaj": "10 ml",
+      "categorie": "creme"
+    },
+    {
+      "id": 4,
+      "title": "Cremă contur de ochi",
+      "ingrediente": "coenzima Q10, vitamina E, extract de ceai verde bio, extract de viță roșie bio, cafeină, ulei de avocado, ulei de kukui, glicerină, dermo-filer.",
+      "beneficii": "antirid, îngrijește zona ochilor,contribuie la stabilizarea colagenului în piele,atenuează cearcănele, pungile de sub ochi,protejează și catifelează pielea,ameliorează adânciturile sub ochi.",
+      "poza": "https://i.imgur.com/x1t28Rv.png",
+      "pret": 35,
+      "gramaj": "30 ml",
+      "categorie": "creme"
+    },
+    {
+      "id": 5,
+      "title": "Elixir pentru ten",
+      "ingrediente": "ulei de crin alb, ulei de pracaxi, ulei de pepene, ulei de coacăze negre, extract de acmella, coenzima Q10, silicon vegetal, vit. A, vit. E.",
+      "beneficii": "iluminează pielea și poate preveni apariția petelor,atenuează petele pigmentare,nutritiv, calmant cutanat, tonifiant,sporește fermitatea pielii din interior,antirid, antioxidantechilibrează secreția de sebum,îmbunătățește elasticitatea pielii.",
+      "poza": "https://i.imgur.com/yRwJVws.png",
+      "pret": 30,
+      "gramaj": "30 ml",
+      "categorie": "creme"
+    },
+    {
+      "id": 6,
+      "title": "Unt cremos de corp",
+      "ingrediente": "ulei de cocos, unt de shea, ulei de orez, ulei de iasomie sau trandafir.",
+      "beneficii": "emolient, regenerator,hrănește pielea în profunzime,prelungește bronzul pielii,reda elasticitatea și finețea pielii",
+      "poza": "https://i.imgur.com/wjptyZO.png",
+      "pret": 30,
+      "gramaj": "30 ml",
+      "categorie": "creme"
+    },
+    {
+      "id": 7,
+      "title": "Odorizant auto",
+      "ingrediente": "ulei esential de brad și pin",
+      "beneficii": "în sticluțe de 5 ml, odorizantul împrospătează aerul din mașină sau spațiile mici. ",
+      "poza": "https://i.imgur.com/DlsUdxs.png",
+      "pret": 30,
+      "gramaj": "5 ml",
+      "categorie": "altele"
+    },
+    {
+      "id": 8,
+      "title": "Balsam de buze",
+      "ingrediente": "unt de cacao, unt de shea, ulei de migdale, ricin, ceară de albine, vitamina E și extract aromatic de vanilie.",
+      "beneficii": "emolient, regenerator,ajută la menținerea hidratării buzelor și le conferă un luciu discret.",
+      "poza": "https://i.imgur.com/CGsEXPK.png",
+      "pret": 30,
+      "gramaj": "10 ml",
+      "categorie": "altele"
+    },
+    {
+      "id": 9,
+      "title": "Bile efervescente de baie",
+      "ingrediente": "ulei de cocos, bicarbonat, acid citric, tensida din cocos, uleiuri esențiale, sare de Hymalaia.",
+      "beneficii": "O bilă efervescentă este suficientă pentru o cadă cu apă sau jumătate de casă. Lasă pielea fină, emolientă și induce o stare relaxantă.",
+      "poza": "https://i.imgur.com/DlsUdxs.png",
+      "pret": 30,
+      "gramaj": "10 g",
+      "categorie": "altele"
+    },
+    {
+      "id": 10,
+      "title": "Gel de duș",
+      "ingrediente": "tenside blânde: hidratantă, lavantă, spumantă, apă, glicerina, gumă xanthan, ulei esențial de portocale și grapefruit.",
+      "beneficii": "curățare blândă, lasă pielea fină și catifelată",
+      "poza": "https://i.imgur.com/YGDV9pP.png",
+      "pret": 30,
+      "gramaj": "200 ml",
+      "categorie": "altele"
+    },
+    {
+      "id": 11,
+      "title": "Sampon solid",
+      "ingrediente": "proteină de mătase, extract de schisandra, apă mineral, decalact (un amestec natural de substanțe cu proprietăți antimicrobiene), tenside din cocos, ulei estențial de grapefruit și rozmarin",
+      "beneficii": "potrivit pentru toate tipurile de păr, ajută mai ales scalpul iritat, cu mâncărimi și mătreață.",
+      "poza": "https://i.imgur.com/YGDV9pP.png",
+      "pret": 30,
+      "gramaj": "200 ml",
+      "categorie": "altele"
+    },
+    {
+      "id": 12,
+      "title": "Deodorant",
+      "ingrediente": "ulei de orez, zinc ricinoleat, acid stearic, pudră din piatră de alaun, pudră de orez, lemonester, ulei esențial de mentă creață, teatree și citronella.",
+      "beneficii": "-lasă pielea să respire,mirosul plăcut durează întreaga zi,nu pătează hainele,în recipient eco-friendly",
+      "poza": "https://i.imgur.com/Im469lj.png",
+      "pret": 30,
+      "gramaj": "20 g",
+      "categorie": "altele"
+    },
+    {
+      "id": 13,
+      "title": "Sapun natural cu lapte de capra",
+      "ingrediente": "lapte de capră, uleiuri saponificate – cocos, palmier, ricin, măsline, unt de shea, unt de cacao, uleiuri esențiale.",
+      "beneficii": "un săpun hidratant care curăță blând pielea.",
+      "poza": "https://i.imgur.com/qmbFS06.png",
+      "pret": 30,
+      "gramaj": "20 g",
+      "categorie": "sapun"
+    },
+    {
+      "id": 14,
+      "title": "Ulei pentru plaja",
+      "ingrediente": "ulei de susan bio, morcovi, karanja, coacăze negre, concentrat de carotene, vit. E",
+      "beneficii": "pentru un bronz fain, uniform și de lungă durată ",
+      "poza": "https://i.imgur.com/1hkqlQE.png",
+      "pret": 30,
+      "gramaj": "30 ml",
+      "categorie": "altele"
+    },
+    {
+      "id": 15,
+      "title": "Sapun cu cafea",
+      "ingrediente": "cafea (infuzie), mult unt de shea, pudră de cacao, ulei esențial de anason, scorțișoară, geranium, ghimbir și foarte puțin parfumant de cappuccino.",
+      "beneficii": "un săpun hidratant care curăță blând pielea.",
+      "poza": "https://i.imgur.com/5NY4INg.png",
+      "pret": 30,
+      "gramaj": "50 g ",
+      "categorie": "sapun"
+    },
+    {
+      "id": 16,
+      "title": "Sapun cu lavanda",
+      "ingrediente": "apă de lavandă,argilă mov,mult unt de shea și ulei esențial de lavandă de la producător local ",
+      "beneficii": "un săpun hidratant care curăță blând pielea.",
+      "poza": "https://i.imgur.com/fG3JnSr.png",
+      "pret": 30,
+      "gramaj": "50 g ",
+      "categorie": "sapun"
+    },
+    {
+      "title": "Cabucel pentru copii",
+      "poza": "https://i.imgur.com/snnGIpH.jpg",
+      "pret": "25",
+      "ingrediente": "unt de mango, matase, ulei de galbenele, extract de catina",
+      "beneficii": "piele hidarata ",
+      "gramaj": "30",
+      "userId": 3,
+      "id": 17
+    },
+    {
+      "title": "Calbucel cu miere",
+      "poza": "https://i.imgur.com/5P8LN3o.jpg",
+      "pret": "30",
+      "ingrediente": "plantute macerate in ulei de masline, roinita si maghiran",
+      "beneficii": "curata pielea delicat, antibacterian",
+      "gramaj": "60",
+      "userId": 3,
+      "id": 18
+    },
+    {
+      "title": "Clabucel de iepuras",
+      "poza": "https://i.imgur.com/QyOmWNT.jpg",
+      "pret": "30",
+      "ingrediente": "apă de lavandă, argilă albastră, ulei esențial de lavandă, cedru, lemongrass.",
+      "beneficii": "delicat cu pielea, miros placut",
+      "gramaj": "60",
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "title": "Sampon solid",
+      "poza": "https://i.imgur.com/Lnn3rnL.jpg",
+      "beneficii": "potrivit pentru toate tipurile de păr, însă ajută mai ales scalpul iritat, cu mâncărimi și mătreață.",
+      "ingrediente": "proteina de matase, extract de schisandra, apa minerala",
+      "pret": "30",
+      "gramaj": "60",
+      "userId": 3,
+      "id": 20
+    },
+    {
+      "title": "Unt cremos pentru corp",
+      "poza": "https://scontent.fotp3-2.fna.fbcdn.net/v/t39.30808-6/277663169_490950322667303_8645950479665045850_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=X4-sDVN3kOQAX8Sjm9M&_nc_ht=scontent.fotp3-2.fna&oh=00_AT_tkJPHNg8u4jxG5lK5wNPFXANDY7b2n0Umq-cP_3R81A&oe=6307898A",
+      "pret": "30",
+      "beneficii": "Untul cremos pentru corp  lasă pielea fină ca cea a bebelușilor. ",
+      "ingrediente": "unt de cacao, unt de migdale, ulei de ricin",
+      "gramaj": "60",
+      "userId": 3,
+      "id": 21
+    },
+    {
+      "title": "",
+      "poza": "",
+      "userId": 3,
+      "id": 22
+    }
+  ]
+}
